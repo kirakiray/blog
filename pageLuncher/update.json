@@ -4,7 +4,7 @@
     "versions": {
         "v000007001": {
             "main": ["添加了热更新"],
-            "url": "https://kirakiray.com/pageLuncher/app/v000007001/app.asar",
+            "url": "https://kirakiray.com/pageLuncher/app/v000007001/app.zip",
             "fixBug": true,
             "version": "0.7.2"
         },
