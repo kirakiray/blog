@@ -3,13 +3,17 @@
     "ebuild": "040101",
     "versions": {
         "000007001": {
-            "main": ["添加了热更新"],
+            "main": [{
+                "text": "添加了热更新"
+            }],
             "url": "https://kirakiray.com/pageLuncher/app/v000007001/app.zip",
             "fixBug": true,
             "version": "0.7.2"
         },
         "000006001": {
-            "main": ["初始版本更新"],
+            "main": [{
+                "text": "初始版本更新"
+            }],
             "url": "",
             "fixBug": true,
             "version": "0.6.1"
