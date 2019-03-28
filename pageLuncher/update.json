@@ -1,0 +1,19 @@
+{
+    "latest": "000007001",
+    "ebuild": "040101",
+    "versions": {
+        "v000007001": {
+            "main": ["添加了热更新"],
+            "url": "https://kirakiray.com/pageLuncher/app/v000007001/app.asar",
+            "fixBug": true,
+            "version": "0.7.2"
+        },
+        "000006001": {
+            "main": ["添加新功能1"],
+            "url": "bbbb",
+            "fixBug": true,
+            "version": "0.6.1"
+        },
+        "000006000": {}
+    }
+}
