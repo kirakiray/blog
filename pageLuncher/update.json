@@ -2,7 +2,7 @@
     "latest": "000007001",
     "ebuild": "040101",
     "versions": {
-        "v000007001": {
+        "000007001": {
             "main": ["添加了热更新"],
             "url": "https://kirakiray.com/pageLuncher/app/v000007001/app.zip",
             "fixBug": true,
