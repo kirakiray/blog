@@ -1,7 +1,15 @@
 {
-    "latest": "000007001",
+    "latest": "000007002",
     "ebuild": "040101",
     "versions": {
+        "000007002": {
+            "main": [{
+                "text": "修复了导出web的bug"
+            }],
+            "url": "https://kirakiray.com/pageLuncher/app/v000007002/app.zip",
+            "fixBug": true,
+            "version": "0.7.2"
+        },
         "000007001": {
             "main": [{
                 "text": "添加了热更新"
