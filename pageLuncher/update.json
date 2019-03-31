@@ -1,7 +1,15 @@
 {
-    "latest": "000007002",
+    "latest": "000007003",
     "ebuild": "040101",
     "versions": {
+        "000007003": {
+            "main": [{
+                "text": "修复了Mac的菜单项问题"
+            }],
+            "url": "https://kirakiray.com/pageLuncher/app/v000007003/app.zip",
+            "fixBug": true,
+            "version": "0.7.3"
+        },
         "000007002": {
             "main": [{
                 "text": "修复了导出web的bug"
