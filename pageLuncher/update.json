@@ -1,7 +1,15 @@
 {
-    "latest": "000007003",
+    "latest": "000008000",
     "ebuild": "040101",
     "versions": {
+        "000008000": {
+            "main": [{
+                "text": "更新视图模块，使用起来更方便（可使用拖拽）"
+            }],
+            "url": "https://kirakiray.com/pageLuncher/app/v000008000/app.zip",
+            "fixBug": false,
+            "version": "0.8.0"
+        },
         "000007003": {
             "main": [{
                 "text": "修复了Mac的菜单项问题"
