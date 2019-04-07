@@ -1,7 +1,15 @@
 {
-    "latest": "000008001",
+    "latest": "000008002",
     "ebuild": "040101",
     "versions": {
+        "000008002": {
+            "main": [{
+                "text": "添加温和的更新提示"
+            }],
+            "url": "https://kirakiray.com/pageLuncher/app/v000008002/app.zip",
+            "fixBug": false,
+            "version": "0.8.2"
+        },
         "000008001": {
             "main": [{
                 "text": "优化快速关闭软件时的自动保存"
