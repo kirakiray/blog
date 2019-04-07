@@ -1,7 +1,15 @@
 {
-    "latest": "000008000",
+    "latest": "000008001",
     "ebuild": "040101",
     "versions": {
+        "000008001": {
+            "main": [{
+                "text": "优化快速关闭软件时的自动保存"
+            }],
+            "url": "https://kirakiray.com/pageLuncher/app/v000008001/app.zip",
+            "fixBug": true,
+            "version": "0.8.1"
+        },
         "000008000": {
             "main": [{
                 "text": "更新视图模块，使用起来更方便（可使用拖拽）"
