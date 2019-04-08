@@ -1,7 +1,15 @@
 {
-    "latest": "000008003",
+    "latest": "000008004",
     "ebuild": "040101",
     "versions": {
+        "000008004": {
+            "main": [{
+                "text": "修复windows的放大快捷键无效的bug；"
+            }],
+            "url": "https://kirakiray.com/pageLuncher/app/v000008004/app.zip",
+            "fixBug": true,
+            "version": "0.8.4"
+        },
         "000008003": {
             "main": [{
                 "text": "添加错误项目提示"
