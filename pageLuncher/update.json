@@ -1,7 +1,15 @@
 {
-    "latest": "000008002",
+    "latest": "000008003",
     "ebuild": "040101",
     "versions": {
+        "000008003": {
+            "main": [{
+                "text": "添加错误项目提示"
+            }],
+            "url": "https://kirakiray.com/pageLuncher/app/v000008003/app.zip",
+            "fixBug": false,
+            "version": "0.8.3"
+        },
         "000008002": {
             "main": [{
                 "text": "添加温和的更新提示"
