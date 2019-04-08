@@ -4,7 +4,7 @@
     "versions": {
         "000008004": {
             "main": [{
-                "text": "修复windows的放大快捷键无效的bug；"
+                "text": "修复windows的放大快捷键无效的bug"
             }],
             "url": "https://kirakiray.com/pageLuncher/app/v000008004/app.zip",
             "fixBug": true,
