@@ -1,7 +1,15 @@
 {
-    "latest": "000008005",
+    "latest": "000008006",
     "ebuild": "040101",
     "versions": {
+        "000008006": {
+            "main": [{
+                "text": "把 0.8.5 调试中关掉的改动元素大小的开关重新打开"
+            }],
+            "url": "https://kirakiray.com/pageLuncher/app/v000008006/app.zip",
+            "fixBug": true,
+            "version": "0.8.6"
+        },
         "000008005": {
             "main": [{
                 "text": "优化视图区缩放焦点变成鼠标位置"
