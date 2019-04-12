@@ -1,7 +1,15 @@
 {
-    "latest": "000008006",
+    "latest": "000008007",
     "ebuild": "040101",
     "versions": {
+        "000008007": {
+            "main": [{
+                "text": "添加图层操作快捷键"
+            }],
+            "url": "https://kirakiray.com/pageLuncher/app/v000008007/app.zip",
+            "fixBug": true,
+            "version": "0.8.7"
+        },
         "000008006": {
             "main": [{
                 "text": "把 0.8.5 调试中关掉的改动元素大小的开关重新打开"
