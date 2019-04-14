@@ -1,7 +1,17 @@
 {
-    "latest": "000008007",
+    "latest": "000008008",
     "ebuild": "040101",
     "versions": {
+        "000008008": {
+            "main": [{
+                "text": "Layers page 添加缩略图"
+            }, {
+                "text": "优化文件保存机制"
+            }],
+            "url": "https://kirakiray.com/pageLuncher/app/v000008008/app.zip",
+            "fixBug": true,
+            "version": "0.8.8"
+        },
         "000008007": {
             "main": [{
                 "text": "添加图层操作快捷键"
