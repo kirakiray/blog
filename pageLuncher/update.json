@@ -1,7 +1,15 @@
 {
-    "latest": "000008008",
+    "latest": "000008009",
     "ebuild": "040101",
     "versions": {
+        "000008009": {
+            "main": [{
+                "text": "修正单位输入框"
+            }],
+            "url": "https://kirakiray.com/pageLuncher/app/v000008009/app.zip",
+            "fixBug": true,
+            "version": "0.8.9"
+        },
         "000008008": {
             "main": [{
                 "text": "Layers page 添加缩略图"
