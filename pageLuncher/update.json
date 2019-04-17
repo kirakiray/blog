@@ -1,7 +1,15 @@
 {
-    "latest": "000008009",
+    "latest": "000008010",
     "ebuild": "040101",
     "versions": {
+        "000008010": {
+            "main": [{
+                "text": "修复输出文件定位不准的问题"
+            }],
+            "url": "https://kirakiray.com/pageLuncher/app/000008010/app.zip",
+            "fixBug": true,
+            "version": "0.8.10"
+        },
         "000008009": {
             "main": [{
                 "text": "修正单位输入框"
