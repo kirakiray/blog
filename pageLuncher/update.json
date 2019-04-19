@@ -1,7 +1,15 @@
 {
-    "latest": "000008010",
+    "latest": "000008011",
     "ebuild": "040101",
     "versions": {
+        "000008011": {
+            "main": [{
+                "text": "添加滚动模式"
+            }],
+            "url": "https://kirakiray.com/pageLuncher/app/v000008011/app.zip",
+            "fixBug": true,
+            "version": "0.8.11"
+        },
         "000008010": {
             "main": [{
                 "text": "修复输出文件定位不准的问题"
