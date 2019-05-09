@@ -73,5 +73,10 @@
         "article": [{
             "text": "修复导出web失败的bug"
         }]
+    }, {
+        "v": "1.0.11",
+        "article": [{
+            "text": "修复滚动web的bug"
+        }]
     }]
 }
