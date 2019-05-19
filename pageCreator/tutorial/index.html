@@ -8,6 +8,7 @@
     <title>pageCreator教程</title>
     <link rel="stylesheet" href="../../css/public.css">
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="css/tutorial.css">
     <script>
         var _hmt = _hmt || [];
         (function () {
@@ -25,15 +26,41 @@
         <nav>
             <a href="../">主页</a>
             <a href="">教程</a>
-            <a href="../qanda/">Q&A</a>
+            <!-- <a href="../qanda/">Q&A</a> -->
         </nav>
     </div>
-    <article>
-        <aside></aside>
-    </article>
-    <footer>
+    <div class="qlist">
+        <aside>
+            <ul class="mainUL">
+                <li>
+                    <a>单位</a>
+                    <ul>
+                        <li>px</li>
+                        <li>百分比(%)</li>
+                        <li>bw</li>
+                        <li>em</li>
+                    </ul>
+                </li>
+                <li><a>导出文件</a></li>
+            </ul>
+        </aside>
+        <article>
+            <h2>单位</h2>
+            <h3>px</h3>
+            <p>像素，使用该单位的元素值不会因为屏幕大小改变而改变。 </p>
+            <h3>百分比(%)</h3>
+            <p> 元素相对区域大小的百分比，元素的x轴和宽度相对屏幕宽度；元素y轴和高度则相对屏幕的高度； </p>
+            <h3>bw</h3>
+            <p>box-width，盒模型的百分比； </p>
+            <h3>em</h3>
+            <p>只会出现在字体大小上，当前字体大小的100%；</p>
+            <h2>导出文件</h2>
+            <p>在设置面板里，选择 导出web；</p>
+        </article>
+    </div>
+    <!-- <footer>
         <p>Copyright © 2018-2019 HuangYao. All rights reserved. </p>
-    </footer>
+    </footer> -->
 </body>
 
 </html>

@@ -3,6 +3,7 @@ body {
     display: flex;
     flex-direction: column;
     background-color: #ededf7;
+    color: #3f4b57;
 }
 
 .color_bg {
@@ -103,4 +104,42 @@ footer {
     text-align: center;
     color: rgb(243, 243, 243);
     font-size: 12px;
+}
+
+.qlist {
+    display: flex;
+    width: 100%;
+    font-size: 14px;
+    flex: 1;
+
+    .mainUL {
+        >li a {
+            font-weight: bold;
+        }
+
+    }
+
+    aside {
+        margin-top: 20px;
+        width: 200px;
+
+        ul {
+            margin-top: 6px;
+            margin-bottom: 6px;
+            list-style: none;
+        }
+
+        li {
+            margin: 6px 0;
+        }
+
+        li>ul {
+            padding: 0;
+            margin-left: 16px;
+        }
+    }
+
+    article {
+        flex: 1;
+    }
 }
