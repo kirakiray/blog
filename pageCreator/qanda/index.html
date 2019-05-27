@@ -8,7 +8,9 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Q and A</title>
     <link rel="stylesheet" href="../../css/public.css">
+    <link rel="stylesheet" href="../css/uikit.min.css">
     <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="css/qanda.css">
     <script>
         var _hmt = _hmt || [];
         (function () {
@@ -24,13 +26,67 @@
     <div class="topbar">
         <a href="/pageCreator/" class="toplogo"></a>
         <nav>
-            <a href="../">主页</a>
-            <a href="">教程</a>
-            <a href="">Q&A</a>
+            <ul class="uk-breadcrumb">
+                <li><a href="../">主页</a></li>
+                <li><a href="../tutorial/">教程</a></li>
+                <li class="uk-active"><span>Q&A</span></li>
+            </ul>
         </nav>
     </div>
-    <article>
-        <aside></aside>
+    <article style="flex:1;">
+        <div class="article_main uk-article">
+            <h1 class="uk-article-title">问题与解决</h1>
+            <p class="uk-article-meta">以下为总结出来的问题和相应的解决方案</p>
+            <p class="uk-article-lead">如何解决字体等文本需求？</p>
+            <p>自定义字体会涉版权问题，暂时未开率开放；可以使用photoshop直接把相应文本保存图片后再使用；</p>
+            <p class="uk-article-lead">软件更新失败了怎么办？</p>
+            <p>因为网站暂时采用了底层本的服务器，小水管；请等待十分钟后，重启软件，再点击尝试；如果还是更新失败，请重新下载软件；</p>
+            <p class="uk-article-lead">接下来会有哪些更新？</p>
+            <dl class="uk-description-list-line">
+                <dt>手机端或iPad的mirror</dt>
+                <dd>就是可以在手机上看效果；</dd>
+                <dt>PPT功能</dt>
+                <dd>可以导出 PPT web，或者其他ppt相关的功能；这个功能相对的让受众变广，为了恰饭，会优先做这个功能；</dd>
+                <dt>模板选择面板</dt>
+                <dd>新建项目的时候，默认自带的模板；开发模板的成本较高，等用户量上去了会考虑做；</dd>
+                <dt>自定义动画</dt>
+                <dd>可以制作自定义的动画</dd>
+                <dt>超级滚动模式</dt>
+                <dd>让滚动跟随操作的进度而改变动画，像苹果官网的那种效果；</dd>
+                <dt>行为和动作模型</dt>
+                <dd>就可以做点击标签跳转页面了；</dd>
+                <dt>添加新元素类型</dt>
+                <dd>包括视频类型和swiper类型，两种比较常用的类型；</dd>
+                <dt>文本元素的富文本编辑</dt>
+                <dd>比如可以修改文本元素内的其中一个字的颜色和大小；</dd>
+                <dt>动画进度编辑器</dt>
+                <dd>就是像Premiere时间线，可以鼠标调整动画持续时间和延迟时间；</dd>
+                <dt>多语言支持</dt>
+                <dd>中文语言都没几个人用，作者都要饿死了，多语言是很以后的事；</dd>
+            </dl>
+            <p>作者会根据用户的反馈来做以上功能；</p>
+            <p>又或者饿死了，什么都不做；</p>
+            <p class="uk-article-lead">如何支持作者?</p>
+            <p>该软件是免费软件，打算一直免费下去；如果未来收费了，会给你荣誉会员，转账时请附加您的联系邮箱；</p>
+            <div style="display: flex;justify-content: space-around;">
+                <div class="payimg_con">
+                    <img src="../img/alipay.png" alt="支付宝二维码">
+                </div>
+                <div class="payimg_con">
+                    <img src="../img/wxpay.png" alt="微信二维码">
+                </div>
+            </div>
+            <p class="uk-article-lead">如何反馈意见或bug?</p>
+            <p>如果有更好的意见或建议，可以邮箱反馈；</p>
+            <p>也可以去 即刻App联系我，用户名是 皮卡怪兽。（不是不用微博，只是限流太恶心，我只用来看新闻）</p>
+            <p>联系方式： <a style="user-select:all;color:#2159a1;"
+                    href="mailto:pagecreator2019@outlook.com">pagecreator2019@outlook.com</a>
+                <span style="margin-left:20px;">导出项目运行库 <a
+                        href="https://github.com/kirakiray/pageRunner">PageRunner开发文档</a></span>
+            </p>
+            <br>
+            <br>
+        </div>
     </article>
     <!-- <footer>
         <p>Copyright © 2018-2019 HuangYao. All rights reserved. </p>
