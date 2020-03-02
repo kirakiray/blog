@@ -1,2 +1,2 @@
-html,body{width:100%;height:100%;margin:0;padding:0;font-family:"FZLanTingHei-R-GBK",STHeiti STXihei,Microsoft Yahei,Arial;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-font-smoothing:antialiased}input,textarea{font-family:"FZLanTingHei-R-GBK",STHeiti STXihei,Microsoft Yahei,Arial}
+html,body{width:100%;height:100%;margin:0;padding:0;font-family:"FZLanTingHei-R-GBK",STHeiti STXihei,Microsoft Yahei,Arial;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;text-rendering:optimizeLegibility}input,textarea{font-family:"FZLanTingHei-R-GBK",STHeiti STXihei,Microsoft Yahei,Arial}a{-webkit-text-decoration-color:#aaa;text-decoration-color:#aaa;color:inherit}
 /*# sourceMappingURL=./public.css.map */
